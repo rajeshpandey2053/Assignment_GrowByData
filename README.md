@@ -22,8 +22,8 @@
 
 4. The solution is in Q4section1.py
 
-5. The following creates both the database project and the collection requests during the insertOne() operation
-   use project
+5. The following creates both the database project and the collection requests during the insertOne() operation <br />
+   use project <br />
    db.requests.insertOne(
    { name: "Rajesh", Rollno: 100, hobby: ["coding","critical_thinking"] }
    );
