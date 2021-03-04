@@ -39,7 +39,7 @@
    c. db.person.find({(name :‘Kate Monster’, "address.city": "New York"})
 
 2. The solution is in Q2section2.py<br />
-   Here," .+\/\/|www.|\..+ " , First .+\/\/ is used to match character like http:// or https://, "|" is used as a OR operator, "www." is used to match www. , finally \..+ is used to match any character preceeding by "." after the domain name.
+   Here," .+\/\/|www.|\..+ " , First .+\/\/ is used to match character like http:// or https://, "|" is used as a OR operator, "www." is used to match www. , finally \..+ is used to match any character preceeding by "." after the domain name. <br />
    The answer is as follows : <br />
    http://www.stackoverflow.com stackoverflow <br />
    https://www.github.com github <br />
