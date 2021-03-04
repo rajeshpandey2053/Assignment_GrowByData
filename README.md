@@ -18,10 +18,7 @@
 
 3. The project that i am most proud of is khushishoes.com. During the pandemic perid, my mama faced finanial crisis because his shoes showroom wasnot open for months. I took the responsibility of developing an online ecommerce platform for him so that he could sustain and even thrive in those uncertain times. First time in my life, I had sleepless nights maybe i was soo much submissive in helping my family in need and also i was fully resposible for building the app from scratch,listing requirements, design, architecture, database, deploying the app.
 
-4. sum the integer elements an array using the map() function
-   elements = [[1, 2, 3], [4, 5, 6], [2, 3, 4]] # Delcare and defining an array
-   total_sum = list(map(sum, elements)) # Using map() and sum() inbuilt function to find sum of each integer array and store in a list.
-   print(total_sum) # print the sum of list
+4. The solution is in Q4section1.py
 
 5. The following creates both the database myNewDatabase and the collection myCollection during the insertOne() operation
    use project
@@ -37,9 +34,14 @@
 
    b. db.person.find({(name :‘Kate Monster’, "address.city": "Chicago"})
 
-   c. db.person.find({(name :‘Kate Monster’, "address.city": "Chicago"})
+   c. db.person.find({(name :‘Kate Monster’, "address.city": "New York"})
 
-2.
+2. The solution is in Q2section2.py<br />
+   The answer is as follows :
+   http://www.stackoverflow.com stackoverflow
+   https://www.github.com github
+   www.example.net example
+   nepal.gov.np nepal
 3. The solution is in Q3section2.py
 
 ## Section3 : Project
