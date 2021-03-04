@@ -31,7 +31,7 @@
 ## Section2 : Long Questions
 
 1. a.
-   use sample
+   use sample <br />
    db.person.count()
 
    b. db.person.find({(name :‘Kate Monster’, "address.city": "Chicago"})
@@ -40,21 +40,21 @@
 
 2. The solution is in Q2section2.py<br />
    Here," .+\/\/|www.|\..+ " , First .+\/\/ is used to match character like http:// or https://, "|" is used as a OR operator, "www." is used to match www. , finally \..+ is used to match any character preceeding by "." after the domain name.
-   The answer is as follows :
-   http://www.stackoverflow.com stackoverflow
-   https://www.github.com github
-   www.example.net example
-   nepal.gov.np nepal
+   The answer is as follows : <br />
+   http://www.stackoverflow.com stackoverflow <br />
+   https://www.github.com github <br />
+   www.example.net example <br />
+   nepal.gov.np nepal <br />
 3. The solution is in Q3section2.py
 
 ## Section3 : Project
 
 2. a.
-   The solution is in Q2a.py <br />The ans is as follows:
+   The solution is in Q2a.py <br />The ans is as follows: <br />
    In Nepal, from Jan 3 to 3:35pm CET, 3 March 2021, there have been 274,294 confirmed cases of COVID-19 with 2,777 deaths.
 
    b. The solution is in file Q2b.py <br />
-   The ans is as follows:
+   The ans is as follows: <br />
    {'Russian Federation': '4,278,750', 'The United Kingdom': '4,188,404', 'France': '3,717,272', 'Spain': '3,130,184', 'United States of America': '28,345,585', 'Italy': '2,955,434', 'Turkey': '2,723,316', 'Germany': '2,460,030', 'Colombia': '2,255,260', 'Argentina': '2,118,676'}
 
    c. This question is really interesting as mousehoover needs to be automatically performed by system like human could do and data needs to be scraped. However, due to limted time, I was not able to fully accomplish this task. Also,I am still understanding the concepts inorder to scrap data from graphs using selenium library. I am sure that i am going to understand and solve this in no time.
