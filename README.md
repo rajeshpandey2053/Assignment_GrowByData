@@ -16,7 +16,7 @@
    c) Working on the mathematics behind the project
    d) Getting your hands dirty by building the product
 
-3. The project that i am most proud of is khushishoes.com. During the pandemic perid, my mama faced finanial crisis because his shoes showroom wasnot open for months. I took the responsibility for developing an online ecommerce platform for him so that he could sustain and even thrive in those uncertain times. First time in my life, I had sleepless nights maybe i was soo much submissive in helping my family in need and also i was fully resposible for building the app from scratch,listing requirements, design, architecture, database, deploying the app.
+3. The project that i am most proud of is khushishoes.com. During the pandemic perid, my mama faced finanial crisis because his shoes showroom wasnot open for months. I took the responsibility of developing an online ecommerce platform for him so that he could sustain and even thrive in those uncertain times. First time in my life, I had sleepless nights maybe i was soo much submissive in helping my family in need and also i was fully resposible for building the app from scratch,listing requirements, design, architecture, database, deploying the app.
 
 4. sum the integer elements an array using the map() function
    elements = [[1, 2, 3], [4, 5, 6], [2, 3, 4]] # Delcare and defining an array
@@ -57,12 +57,10 @@
 
 ## Section3 : Project
 
-2. a.
-   import requests
-   from bs4 import BeautifulSoup
-   source = requests.get(
-   "https://covid19.who.int/region/searo/country/np").text
-   soup = BeautifulSoup(source, 'lxml')
-   div*element = soup.find('div', id="*\_\_gatsby")
-   finddiv = div*element.find('div', class*="sc-AxjAm sc-AxiKw igEipw")
-   print(finddiv.p.text)
+2. a. The solution is in Q2a.py
+   The ans is as follows:
+   In Nepal, from Jan 3 to 3:35pm CET, 3 March 2021, there have been 274,294 confirmed cases of COVID-19 with 2,777 deaths.
+
+b. The solution is in file Q2b.py
+The ans is as follows:
+{'Russian Federation': '4,278,750', 'The United Kingdom': '4,188,404', 'France': '3,717,272', 'Spain': '3,130,184', 'United States of America': '28,345,585', 'Italy': '2,955,434', 'Turkey': '2,723,316', 'Germany': '2,460,030', 'Colombia': '2,255,260', 'Argentina': '2,118,676'}
