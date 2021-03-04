@@ -40,27 +40,12 @@
    c. db.person.find({(name :‘Kate Monster’, "address.city": "Chicago"})
 
 2.
-3. import requests
-   #first try to find if html file can be scraped within 0.075
-   try:
-   scrapedhtml = requests.get(
-   "https://www.google.com/search?q=nike+shoes.", timeout=0.075).text
-   #if exception occurs then write timeout error into a file
-   except requests.Timeout as e:
-   print("OOPS!! Timeout Error")
-   scrapedhtml = "Oops Timeout Error"
-   #in both the cases write html file if exception is not raised else if raised then write timeout error into a htmlfile
-   finally:
-   record_file = open('htmlfile.html', 'w')
-   record_file.write(scrapedhtml)
-   record_file.close()
+3. The solution is in Q3section2.py
 
 ## Section3 : Project
 
-2. a. The solution is in Q2a.py
-   The ans is as follows:
+2. a. The solution is in Q2a.py <br />The ans is as follows:
    In Nepal, from Jan 3 to 3:35pm CET, 3 March 2021, there have been 274,294 confirmed cases of COVID-19 with 2,777 deaths.
 
-b. The solution is in file Q2b.py
-The ans is as follows:
+b. The solution is in file Q2b.py <br />The ans is as follows:
 {'Russian Federation': '4,278,750', 'The United Kingdom': '4,188,404', 'France': '3,717,272', 'Spain': '3,130,184', 'United States of America': '28,345,585', 'Italy': '2,955,434', 'Turkey': '2,723,316', 'Germany': '2,460,030', 'Colombia': '2,255,260', 'Argentina': '2,118,676'}
