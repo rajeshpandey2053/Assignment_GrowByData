@@ -4,11 +4,12 @@
 
 1. Tools used for
    Web development : Django, DjangoRestFramework, ReactJS, ReactRouter, React-Redux, HTML, Javascript, CSS
-   Coding : Keras, numpy, scikit-learn, matplotlib,
-   Database : SQL, SQLite, postgreSQL
-   Data Analysis : matplotlib, numpy , keras, Tensorflow
-   Data processing : numpy, scikit-learn
-   Web scraping: BeautifulSoup
+   Coding : python, C, C++, java
+   Database : SQL, SQLite, postgreSQL, MongoDB
+   Data Analysis : matplotlib, numpy , Keras, Tensorflow, scikit-learn, pandas
+   Data processing : numpy, scikit-learn, pandas
+   Web scraping: BeautifulSoup, Selenium (worked on a project where each recipe link and direction were scraped from AllRecipes.com)
+   Others : Google Dialogflow( used this to build and train chatbots)
 
 2. The roles that i am involved in an engineering project are:
    a) Talk to the sponsors and supporters of the project
@@ -20,7 +21,7 @@
 
 4. The solution is in Q4section1.py
 
-5. The following creates both the database myNewDatabase and the collection myCollection during the insertOne() operation
+5. The following creates both the database project and the collection requests during the insertOne() operation
    use project
    db.requests.insertOne(
    { name: "Rajesh", Rollno: 100, hobby: ["dancing","singing"] }
@@ -37,6 +38,7 @@
    c. db.person.find({(name :‘Kate Monster’, "address.city": "New York"})
 
 2. The solution is in Q2section2.py<br />
+   Here," .+\/\/|www.|\..+ " , First .+\/\/ is used to match character like http:// or https://, "|" is used as a OR operator, "www." is used to match www. , finally \..+ is used to match any character preceeding by "." after the domain name.
    The answer is as follows :
    http://www.stackoverflow.com stackoverflow
    https://www.github.com github
